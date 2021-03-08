@@ -1,0 +1,49 @@
+.container{
+
+    max-width: 960px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    .select{
+        margin-bottom: 20px;
+    }
+}
+.App{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    @media screen and (max-width:960px) {
+        display: block;
+    }
+}
+
+.hour-container{
+    width: 100%;
+    text-align: center;
+
+    h1{
+        color:#666;
+        font-size:28px;
+        font-weight: 700;
+    }
+
+    .hour-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .link{
+        color:#666;
+        font-size:28px;
+        font-weight: 700;
+    }
+}
+
+.select{
+    h1{
+        color:#666;
+        font-weight: 700;
+    }
+}
